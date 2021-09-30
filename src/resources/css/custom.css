@@ -1,0 +1,87 @@
+/**
+ * Ds Instagram Feed plugin for Craft CMS 3.x
+ *
+ * Ds Instagram Feed
+ *
+ * @link      https://www.dotsquares.com/
+ * @copyright Copyright (c) 2021 Dotsquares
+ */
+     
+     .ig_feed_container{
+        width:100%; margin:0 auto; font-family:Arial, Helvetica, sans-serif;
+    }
+     
+    .ig_post_container{
+        border: 2px solid #f1f1f1; margin-bottom:25px; margin-left:3%; width:20%; height:550px; float:left;
+    }
+     
+    .ig_post_container img{
+        width:100%;
+    }
+     
+    .ig_post_container .ig_post_details{
+        padding:15px;
+    }
+     
+    .ig_post_container .ig_view_link{
+        margin-top:10px;
+    }
+
+     h4{ text-align: center;}
+
+/*24-09-2021*/
+
+
+footer {
+      padding: 30px 0px 20px !important;
+    display: inline-block !important;
+}
+
+.ig_feed_container .ig_post_container {
+    height: 100%;
+}
+.ig_feed_container .ig_post_container .ig_post_details {
+    padding: 15px;
+    background: #000;
+}
+.ig_feed_container .ig_post_container .ig_post_details .ig_view_link a {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.ig_feed_container .ig_post_container .ig_view_link {
+    margin-top: 0;
+}
+
+.ig_feed_container {
+    margin: 50px auto;
+}
+.ig_feed_container .ig_post_container img {
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+@media (max-width:991px){
+
+    .ig_feed_container .ig_post_container img {
+    max-height: 150px;
+    min-height: 150px;
+}
+}
+
+@media (max-width:767px){
+
+.ig_post_container {
+    margin: 30px 20px !important;
+    width: auto;
+    float: none;
+}
+
+.ig_feed_container .ig_post_container img {
+    max-height: 100%;
+    min-height: 100%;
+}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ds/craft-instagramfeed",
+  "description": "A plugin for Craft CMS that helps you get your Instagram feed data.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": ["craft",
+  	"cms",
+  	"craftcms",
+      	"craft-plugin",
+      	"instagram"],
+  "license": "MIT",
+  "authors": [
+  	{
+          "name": "Dotsquares",
+          "homepage": "https://dotsquares.com/"
+        }
+  ],
+  "support": {
+    "email": "support.extensions@dotsquares.com",
+    "issues": "https://github.com/developer/repo/issues?state=open",
+    "source": "https://github.com/developer/repo",
+    "docs": "https://github.com/developer/repo/blob/master/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ds\\instagramfeed\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Ds Instgram Feed Plugin",
+    "handle": "instagramfeed",
+    "description": "Get Instagram feeds.",
+    "hasCpSection": false,
+    "hasSettings": true,
+    "class": "ds\\instagramfeed\\Feedplugin"
+  }
+}

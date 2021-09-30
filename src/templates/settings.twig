@@ -1,0 +1,38 @@
+{#
+/**
+ * Ds Instagram Feed plugin for Craft CMS 3.x
+ *
+ *
+ * @author    Dotsquares
+ * @copyright Copyright (c) 2021 Dotsquares
+ * @link      https://www.dotsquares.com/
+ 
+ */
+ #}
+
+{% import "_includes/forms" as forms %}
+
+
+{{ forms.autosuggestField({
+    label: "Instagram Access Token",
+    id: 'instagramUser',
+    name: 'instagramUser',
+    value: settings.instagramUser,
+    type: 'text',
+    required: true
+}) }}
+
+<p>{{ "Enter your Instagram Access Token here."|t }}</p>
+
+{{ forms.autosuggestField({
+    label: "Instagram Feed Title",
+    id: 'instagramfeedtitle',
+    name: 'instagramfeedtitle',
+    value: settings.instagramfeedtitle,
+    type: 'text',
+    placeholder: 'Instagram Feed',
+    required: false
+}) }}
+
+
+<p>{{ "Enter Instagram Feed Title here."|t }}</p>
