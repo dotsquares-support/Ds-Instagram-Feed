@@ -1,4 +1,4 @@
-# Ds Instagram Feed Changelog
+# InstaFeed Changelog
 
 All notable changes to this project will be documented in this file.
 
