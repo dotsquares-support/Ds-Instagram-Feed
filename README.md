@@ -1,6 +1,6 @@
 <img src="src/icon.svg" alt="icon" width="100" height="100">
 
-# Ds Instagram Feed plugin for Craft CMS 3
+# InstaFeed plugin for Craft CMS 3
 
 Easily add your Instagram feed on your website with the help of advanced  InstaFeed Plugin. Showcase your Instagram posts and make yourself visible to your website visitors. Easy to install and activate. 
 
@@ -12,7 +12,7 @@ This plugin requires Craft CMS 3.0.0, or later.
 
 #### Plugin Store
 
-Log into your control panel and click on 'Plugin Store'. Search for 'Ds Instagram Feed'.
+Log into your control panel and click on 'Plugin Store'. Search for 'InstaFeed'.
 
 #### Composer
 
@@ -28,7 +28,7 @@ cd /path/to/project
 composer require ds/craft-instagramfeed
 ```
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Ds Instagram Feed.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for InstaFeed.
 
 #### Examples
 
