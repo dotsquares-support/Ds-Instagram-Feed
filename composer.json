@@ -30,7 +30,7 @@
     }
   },
   "extra": {
-    "name": "DS Instgram Feed Plugin",
+    "name": "DS Instagram Feed Plugin",
     "handle": "dsinstagramfeed",
     "description": "Get Instagram feeds.",
     "hasCpSection": false,
