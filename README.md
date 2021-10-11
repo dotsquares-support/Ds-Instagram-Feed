@@ -2,9 +2,7 @@
 
 # Ds Instagram Feed plugin for Craft CMS 3
 
-If you want to add your (or someone else) Instagram feed on your site, you can use this plugin to fetch and cache the feed. It returns the image source.
-
-This only works with public profiles.
+Easily add your Instagram feed on your website with the help of advanced  InstaFeed Plugin. Showcase your Instagram posts and make yourself visible to your website visitors. Easy to install and activate. 
 
 ## Installation
 
