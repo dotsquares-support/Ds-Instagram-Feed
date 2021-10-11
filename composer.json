@@ -30,7 +30,7 @@
     }
   },
   "extra": {
-    "name": "Ds Instgram Feed Plugin",
+    "name": "DotSquare Instgram Feed Plugin",
     "handle": "dsinstagramfeed",
     "description": "Get Instagram feeds.",
     "hasCpSection": false,
