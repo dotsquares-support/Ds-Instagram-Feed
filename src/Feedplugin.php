@@ -42,7 +42,7 @@ class Feedplugin extends Plugin {
             function (Event $event) {
                 /** @var CraftVariable $variable */
                 $variable = $event->sender;
-                $variable->set('instagramfeed', variables\InstagramfeedVariable::class);
+                $variable->set('dsinstagramfeed', variables\InstagramfeedVariable::class);
             }
         );
     }    
@@ -60,7 +60,7 @@ class Feedplugin extends Plugin {
     protected function settingsHtml()
     {
         return \Craft::$app->getView()->renderTemplate(
-            'instagramfeed/settings',
+            'dsinstagramfeed/settings',
             [ 'settings' => $this->getSettings() ]
         );
     } 
