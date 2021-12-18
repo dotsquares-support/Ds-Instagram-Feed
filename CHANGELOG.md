@@ -6,3 +6,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial release
 ## 1.0.1 - 2021-10-14
+
+- Fixed Setting Issues
+## 1.0.2 - 2021-12-18
